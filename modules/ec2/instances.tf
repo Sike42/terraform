@@ -8,7 +8,4 @@ resource "aws_instance" "web" {
     Name = "Roku aws instance web for Pluto TV..."
   }
 
-  test55 = ""
-
-
 }
