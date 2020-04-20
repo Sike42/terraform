@@ -5,7 +5,6 @@ resource "aws_instance" "web" {
   subnet_id     = "${var.subnet_id}"
 
   tags {
-    Name = "Roku aws instance web for Pluto TV..."
+    Name = "HelloWorld"
   }
-
 }
