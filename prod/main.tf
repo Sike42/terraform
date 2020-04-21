@@ -6,7 +6,7 @@ module "my_vpc" {
   source      = "../modules/vpc"
   vpc_cidr    = "172.31.0.0/16"
   tenancy     = "default"
-  vpc_id      = "${module.my_vpc.vpc_id}"
+  vpc_id      = "vpc-c8c617a3"
   subnet_cidr = "172.31.1.0/24"
 }
 
