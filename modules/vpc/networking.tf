@@ -3,7 +3,7 @@ resource "aws_vpc" "main" {
   instance_tenancy = "${var.tenancy}"
 }
 resource "aws_subnet" "main" {
-  vpc_id     = "vpc-c8c617a3"
+  vpc_id     = "${var.vpc_id}"
   cidr_block = "${var.subnet_cidr}"
 
 }

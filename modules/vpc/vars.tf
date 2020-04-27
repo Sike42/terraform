@@ -6,7 +6,9 @@ variable "tenancy" {
   default = "dedicated"
 }
 
-variable "vpc_id" {}
+variable "vpc_id" {
+   default     = "vpc-c8c617a3"
+}
 
 variable "subnet_cidr" {
   default = "172.31.1.0/24"
